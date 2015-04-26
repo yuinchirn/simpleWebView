@@ -13,6 +13,7 @@
 		9507D8311AED2D4A009B5706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8301AED2D4A009B5706 /* Images.xcassets */; };
 		9507D8341AED2D4A009B5706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8321AED2D4A009B5706 /* LaunchScreen.xib */; };
 		9507D8401AED2D4A009B5706 /* simpleWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D83F1AED2D4A009B5706 /* simpleWebViewTests.swift */; };
+		9507D84C1AED2F76009B5706 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D84B1AED2F76009B5706 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9507D8391AED2D4A009B5706 /* simpleWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9507D83E1AED2D4A009B5706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9507D83F1AED2D4A009B5706 /* simpleWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleWebViewTests.swift; sourceTree = "<group>"; };
+		9507D84B1AED2F76009B5706 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				9507D8291AED2D4A009B5706 /* AppDelegate.swift */,
 				9507D82B1AED2D4A009B5706 /* ViewController.swift */,
+				9507D84B1AED2F76009B5706 /* WebViewController.swift */,
 				9507D82D1AED2D4A009B5706 /* Main.storyboard */,
 				9507D8301AED2D4A009B5706 /* Images.xcassets */,
 				9507D8321AED2D4A009B5706 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9507D82C1AED2D4A009B5706 /* ViewController.swift in Sources */,
+				9507D84C1AED2F76009B5706 /* WebViewController.swift in Sources */,
 				9507D82A1AED2D4A009B5706 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpleWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = simpleWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
