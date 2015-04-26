@@ -14,6 +14,11 @@
 		9507D8341AED2D4A009B5706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8321AED2D4A009B5706 /* LaunchScreen.xib */; };
 		9507D8401AED2D4A009B5706 /* simpleWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D83F1AED2D4A009B5706 /* simpleWebViewTests.swift */; };
 		9507D84C1AED2F76009B5706 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D84B1AED2F76009B5706 /* WebViewController.swift */; };
+		9507D8511AED4713009B5706 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 9507D84F1AED4713009B5706 /* arrow-left.png */; };
+		9507D8521AED4713009B5706 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8501AED4713009B5706 /* arrow-right.png */; };
+		9507D8551AED471B009B5706 /* facebook-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8531AED471B009B5706 /* facebook-black.png */; };
+		9507D8561AED471B009B5706 /* twitter-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8541AED471B009B5706 /* twitter-black.png */; };
+		9507D8581AED4B97009B5706 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9507D8571AED4B97009B5706 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		9507D83E1AED2D4A009B5706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9507D83F1AED2D4A009B5706 /* simpleWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleWebViewTests.swift; sourceTree = "<group>"; };
 		9507D84B1AED2F76009B5706 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9507D84F1AED4713009B5706 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		9507D8501AED4713009B5706 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		9507D8531AED471B009B5706 /* facebook-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-black.png"; sourceTree = "<group>"; };
+		9507D8541AED471B009B5706 /* twitter-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-black.png"; sourceTree = "<group>"; };
+		9507D8571AED4B97009B5706 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9507D8581AED4B97009B5706 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,7 @@
 				9507D8301AED2D4A009B5706 /* Images.xcassets */,
 				9507D8321AED2D4A009B5706 /* LaunchScreen.xib */,
 				9507D8271AED2D4A009B5706 /* Supporting Files */,
+				9507D84D1AED46FD009B5706 /* resources */,
 			);
 			path = simpleWebView;
 			sourceTree = "<group>";
@@ -113,6 +125,34 @@
 				9507D83E1AED2D4A009B5706 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9507D84D1AED46FD009B5706 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9507D8591AED4BA3009B5706 /* frameworks */,
+				9507D84E1AED4706009B5706 /* images */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		9507D84E1AED4706009B5706 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9507D8531AED471B009B5706 /* facebook-black.png */,
+				9507D8541AED471B009B5706 /* twitter-black.png */,
+				9507D84F1AED4713009B5706 /* arrow-left.png */,
+				9507D8501AED4713009B5706 /* arrow-right.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		9507D8591AED4BA3009B5706 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9507D8571AED4B97009B5706 /* Social.framework */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +235,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9507D8511AED4713009B5706 /* arrow-left.png in Resources */,
 				9507D82F1AED2D4A009B5706 /* Main.storyboard in Resources */,
 				9507D8341AED2D4A009B5706 /* LaunchScreen.xib in Resources */,
+				9507D8561AED471B009B5706 /* twitter-black.png in Resources */,
+				9507D8521AED4713009B5706 /* arrow-right.png in Resources */,
 				9507D8311AED2D4A009B5706 /* Images.xcassets in Resources */,
+				9507D8551AED471B009B5706 /* facebook-black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
