@@ -459,6 +459,7 @@
 				9507D8451AED2D4A009B5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9507D8461AED2D4A009B5706 /* Build configuration list for PBXNativeTarget "simpleWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +468,7 @@
 				9507D8481AED2D4A009B5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

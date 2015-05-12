@@ -17,7 +17,6 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     // 初期URL
     let initialUrl = NSURL(string: "https://www.google.co.jp")
     
-    
     /* 最初の表示時に呼ばれるメソッド */
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,5 +84,4 @@ class WebViewController: UIViewController, UIWebViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
